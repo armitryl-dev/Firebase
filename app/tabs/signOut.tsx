@@ -8,7 +8,7 @@ export default function WelcomeScreen(){
         <View style={GlobalStyles.container}>
             <Text style={GlobalStyles.textHeader}>Desconectarse</Text>
             <Pressable 
-                onPress={() => router.push('./index')} 
+                onPress={() => router.push('/')} 
                 style={GlobalStyles.buttons}>
                 <Text style={GlobalStyles.tetxButtonLogin}>Sign out</Text>
             </Pressable>
